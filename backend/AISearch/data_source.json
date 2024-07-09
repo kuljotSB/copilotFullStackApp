@@ -3,7 +3,7 @@
     "description" : "Documents for search.",  
     "type" : "azureblob",
     "credentials" :
-     { "connectionString" : "DefaultEndpointsProtocol=https;AccountName=chatcopilotstracc;AccountKey=sjyyQ4UeYLxIFxmH+pdATZQ5ziRnhEE9kFJxKRjQlqZggkRcXvnStZSV9LcYiIuWxjJl2MQxFEYi+ASt50st5g==;EndpointSuffix=core.windows.net"
+     { "connectionString" : "YOUR_STORAGE_CONNECTION_STRING"
      },
-    "container" : { "name" : "reviews" }
+    "container" : { "name" : "margies" }
 }
