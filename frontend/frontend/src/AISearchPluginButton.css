@@ -1,0 +1,17 @@
+.AISearchPluginButton {
+    
+     
+    text-align:centre;
+    width: 45%;
+    bottom:10%;
+    left: 40%;
+    width:auto;
+    height:auto;
+    
+
+}
+
+
+button:active {
+    transform: translateY(5px);
+}

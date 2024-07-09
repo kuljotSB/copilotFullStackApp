@@ -1,0 +1,18 @@
+{
+    "schema": 1,
+    "description": "to extract email address from the provided text",
+    "execution_settings": {
+        "default": {
+            "max_tokens":1000,
+            "temperature":0.7
+            
+        }
+    },
+    "input_variables": [
+        {
+            "name": "input",
+            "description": "the text from which the email address needs to be extracted",
+            "default": ""
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+/* InputTextBox.css */
+
+/* Style for the container div */
+.input-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute items along the main axis */
+    height: 200px; /* Set your desired height */
+    overflow-y: auto;
+}
+
+/* Style for the input element */
+input {
+    position:absolute;
+    width: 50%; /* Adjust the width based on your button's width */
+    padding: 10px;
+    left:5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    white-space: pre-wrap;
+}
+
+/* Placeholder style */
+input::placeholder {
+    color: #999;
+}
+
+/* Hover effect */
+input:hover {
+    border-color: #666;
+}
+
+/* Focus effect */
+input:focus {
+    border-color: #007bff;
+}
+
+/* Style for the SendButton */
+.send-button {
+    width: 80px; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.loading{
+    position:absolute;
+    bottom:5%;
+    left: 20%;
+    color:white;
+}
+
+/* CSS code for simultaneous glow-in and glow-out animation */
+@keyframes glowInOut {
+    0%, 100% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); }
+    50% { box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); }
+}
+
+/* Apply the animation to the <h1> element */
+.loading {
+    animation: glowInOut 2s ease infinite;
+}
+
+

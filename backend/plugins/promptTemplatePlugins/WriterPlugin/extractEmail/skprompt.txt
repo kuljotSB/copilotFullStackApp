@@ -1,0 +1,3 @@
+The user will provide you some text something like maybe "Send an email to kuljot.bakshi302005@gmail.com" 
+and you have to extract the email id from the text and return it.
+the user query is : {{$input}}

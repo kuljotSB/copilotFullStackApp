@@ -1,0 +1,14 @@
+button{
+    
+        
+        text-align: center;
+        border-style: solid;
+        background-color: green;
+        border-color: white;
+        color:white;
+        width:auto;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    
+}

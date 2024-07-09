@@ -1,0 +1,9 @@
+{
+    "name" : "margies-custom-data", 
+    "description" : "Documents for search.",  
+    "type" : "azureblob",
+    "credentials" :
+     { "connectionString" : "DefaultEndpointsProtocol=https;AccountName=chatcopilotstracc;AccountKey=sjyyQ4UeYLxIFxmH+pdATZQ5ziRnhEE9kFJxKRjQlqZggkRcXvnStZSV9LcYiIuWxjJl2MQxFEYi+ASt50st5g==;EndpointSuffix=core.windows.net"
+     },
+    "container" : { "name" : "reviews" }
+}

@@ -1,0 +1,40 @@
+
+
+.userQuery{
+    position:relative;
+    top:10%;
+    bottom:10%;
+    left: 50%;
+    font-size: auto;
+    height:50%;
+    width:50%;
+    color: white;
+    background-color: black;
+    border-color: rgb(69, 67, 67);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.chatResponse{
+    
+    font-size: auto;
+    height:50%;
+    width:50%;
+    color: white;
+    background-color: black;
+    border-style: solid hollow;
+    border-color: rgb(69, 67, 67);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
