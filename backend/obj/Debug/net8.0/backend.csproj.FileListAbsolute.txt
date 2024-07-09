@@ -44,7 +44,6 @@ C:\Users\HP VICTUS\OneDrive\Desktop\copilot_stack_app\backend\obj\Debug\net8.0\r
 C:\Users\HP VICTUS\OneDrive\Desktop\copilot_stack_app\backend\obj\Debug\net8.0\backend.pdb
 C:\Users\HP VICTUS\OneDrive\Desktop\copilot_stack_app\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\HP VICTUS\OneDrive\Desktop\copilot_stack_app\backend\obj\Debug\net8.0\ref\backend.dll
-C:\Users\HP VICTUS\OneDrive\Desktop\copilot_stack_app\backend\bin\Debug\net8.0\plugins\promptTemplatePlugins\WriterPlugin\email\config.json
 C:\Users\HP VICTUS\OneDrive\Desktop\copilot_stack_app\backend\bin\Debug\net8.0\plugins\promptTemplatePlugins\WriterPlugin\summarise\config.json
 C:\Users\HP VICTUS\OneDrive\Desktop\copilot_stack_app\backend\bin\Debug\net8.0\Handlebars.dll
 C:\Users\HP VICTUS\OneDrive\Desktop\copilot_stack_app\backend\bin\Debug\net8.0\Handlebars.Net.Helpers.dll
@@ -104,5 +103,4 @@ C:\Users\HP VICTUS\OneDrive\Desktop\copilot_stack_app\backend\bin\Debug\net8.0\S
 C:\Users\HP VICTUS\OneDrive\Desktop\copilot_stack_app\backend\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
 C:\Users\HP VICTUS\OneDrive\Desktop\copilot_stack_app\backend\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\HP VICTUS\OneDrive\Desktop\copilot_stack_app\backend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\HP VICTUS\OneDrive\Desktop\copilot_stack_app\backend\bin\Debug\net8.0\plugins\promptTemplatePlugins\WebSearcherPlugin\BingSearch\config.json
 C:\Users\HP VICTUS\OneDrive\Desktop\copilot_stack_app\backend\bin\Debug\net8.0\plugins\promptTemplatePlugins\WriterPlugin\extractEmail\config.json
