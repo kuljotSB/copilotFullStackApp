@@ -18,7 +18,7 @@ Microsoft and other Fortune 500 companies are already leveraging Semantic Kernel
 Semantic Kernel combines prompts with existing APIs to perform actions. By describing your existing code to AI models, they’ll be called to address requests. When a request is made the model calls a function, and Semantic Kernel is the middleware translating the model's request to a function call and passes the results back to the model.
 
 ## Web App Architecture 
-![Alt text](https://github.com/kuljotSB/assets/blob/main/Screenshot%202024-07-10%20135848.png?raw=true)
+![Alt text](https://github.com/kuljotSB/assets/blob/main/copilot_app_architecture.png?raw=true)
 
 The overall architecture makes use of the following services:
 1) `React.js` for frontend
