@@ -12,6 +12,7 @@ The copilot stack was first introduced by Satya Nadella in the Microsoft Build c
 
 ### Semantic Kernel - AI orchestration layer
 ![Alt text](https://github.com/kuljotSB/assets/blob/main/enterprise-ready.png?raw=true)
+
 Microsoft and other Fortune 500 companies are already leveraging Semantic Kernel because it’s flexible, modular, and observable. Backed with security enhancing capabilities like telemetry support, and hooks and filters so you’ll feel confident you’re delivering responsible AI solutions at scale. 
 
 Semantic Kernel combines prompts with existing APIs to perform actions. By describing your existing code to AI models, they’ll be called to address requests. When a request is made the model calls a function, and Semantic Kernel is the middleware translating the model's request to a function call and passes the results back to the model.
