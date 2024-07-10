@@ -57,6 +57,26 @@ The Front-end uses vite to run on a local server http://localhost:5173
 
 ![Alt text](https://github.com/kuljotSB/assets/blob/main/Screenshot%202024-07-10%20142243.png?raw=true)
 
+### Running The Backend
+
+#### Deploying Infrastructure on Azure
+
+1) make sure you have Azure CLI installed on your device through the following link (https://learn.microsoft.com/en-us/cli/azure/install-azure-cli).
+2) open the `COPILOTFULLSTACKAPP` folder in powershell and enter the following commands:
+
+    `cd infrastructure setup`
+
+3) now you need to login to your azure account using the CLI:
+
+   `az login`
+
+4) now run the powershell script to deploy the infra on Azure.
+
+   `./deploy.ps1`
+
+   
+
+
 
 
 
