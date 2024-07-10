@@ -77,12 +77,15 @@ The Front-end uses vite to run on a local server http://localhost:5173
 #### Creating An Azure AI Search Solution
 
 1) navigate to `backend/AISearch`
+   
 2) go to the `upload-docs.cmd` file and fill in the Subscription_id, azure_storage_account and azure_storage_key variables with appropriate values and run the following command in powershell to upload documents contained in the`AISearch/data` folder to your storage account's container.
 
-  `./upload-docs.cmd`
+   `./upload-docs.cmd`
 
 3) now naviagate to `AISearch/data_source.json` and fill in the appropriate value of `connectionString` with your storage account's connection string.
+   
 4) navigate to `AISearch/skillset.json` and fill in the appropriate value of `key` with the key of your multi-service AI account.
+   
 5) navigate to `AISearch/create-search.cmd` and fill in the appropriate values of `url` and `admin_key` and run the following command in powershell to create a complete AI Search solution for RAG purpose.
 
    `./create-search.cmd`
