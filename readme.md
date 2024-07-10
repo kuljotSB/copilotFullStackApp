@@ -37,12 +37,20 @@ The overall architecture makes use of the following services:
 ### Running The Front-End
 
 1) open the `COPILOTFULLSTACKAPP` folder in command prompt and enter the following commands:
+
     ` cd frontend`
+   
     ` cd frontend`
-2) now install the npm modules with this command:
+   
+3) now install the npm modules with this command:
+
+
    ` npm install `
-3) now run these commands:
+   
+5) now run these commands:
+
    `cd src`
+   
    ` npm run dev`
 
 So the frontend uses `vite` to run locally on a localhost server and the url of this localhost server is: `http://localhost:5173`
