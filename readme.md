@@ -89,6 +89,19 @@ The Front-end uses vite to run on a local server http://localhost:5173
 5) navigate to `AISearch/create-search.cmd` and fill in the appropriate values of `url` and `admin_key` and run the following command in powershell to create a complete AI Search solution for RAG purpose.
 
    `./create-search.cmd`
+
+
+#### Creating An App Registration For Microsoft Graph Plugin
+
+1) Navigate to your Azure account and create an app registration with the following configurations:
+
+   a) The redirect URI needs to be kept blank and the name could be anything for the app registration.
+
+   b) The API permissions need to be assigned in the following manner.
+
+     ![Alt text](https://github.com/kuljotSB/assets/blob/main/app_registration.png?raw=true)
+
+
    
 
 
