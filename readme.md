@@ -31,4 +31,21 @@ The overall architecture makes use of the following services:
 8) `Azure AI Search` for RAG (Retrieval Augmented Generation). Extracting business and organizational data proprietary to a specific organization.
 9) `Azure Cosmos DB for NoSQL` for making up as the persisted, global database for auditing purposes, chat history and making the app real-time.
 10) `Azure Function` which is built on a queue based trigger and writes chat history data from Azure Storage Queue to the Cosmos DB database.
-    
+
+# Getting Started With Running The Web App
+
+### Running The Front-End
+
+1) open the `COPILOTFULLSTACKAPP` folder in command prompt and enter the following commands:
+    ` cd frontend`
+    ` cd frontend`
+2) now install the npm modules with this command:
+   ` npm install `
+3) now run these commands:
+   `cd src`
+   ` npm run dev`
+
+So the frontend uses `vite` to run locally on a localhost server and the url of this localhost server is: `http://localhost:5173`
+
+![Alt text](https://github.com/kuljotSB/assets/blob/main/Screenshot%202024-07-10%20142243.png?raw=true)
+
