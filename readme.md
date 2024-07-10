@@ -53,7 +53,11 @@ The overall architecture makes use of the following services:
    
    ` npm run dev`
 
-So the frontend uses `vite` to run locally on a localhost server and the url of this localhost server is: `http://localhost:5173`
+The Front-end uses vite to run on a local server `http://localhost:5173"
 
 ![Alt text](https://github.com/kuljotSB/assets/blob/main/Screenshot%202024-07-10%20142243.png?raw=true)
+
+
+
+
 
