@@ -20,4 +20,15 @@ Semantic Kernel combines prompts with existing APIs to perform actions. By descr
 ## Web App Architecture 
 ![Alt text](https://github.com/kuljotSB/assets/blob/main/Screenshot%202024-07-10%20135848.png?raw=true)
 
-
+The overall architecture makes use of the following services:
+1) `React.js` for frontend
+2) `dotnet core Web API` for backend (written in C#).
+3) `Semantic Kernel SDK for C#` for acting as the AI orchestration layer.
+4) `Azure OpenAI` for LLM models.
+5) `Azure Storage Account` for blob storage (making up for the datastore of Azure AI Search) and for queue service (Azure Storage Queue).
+6) `Bing Search` service for making the Bing web Searcher Plugin
+7) `Microsoft Graph APIs` for making the Graph Plugin.
+8) `Azure AI Search` for RAG (Retrieval Augmented Generation). Extracting business and organizational data proprietary to a specific organization.
+9) `Azure Cosmos DB for NoSQL` for making up as the persisted, global database for auditing purposes, chat history and making the app real-time.
+10) `Azure Function` which is built on a queue based trigger and writes chat history data from Azure Storage Queue to the Cosmos DB database.
+    
