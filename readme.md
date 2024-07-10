@@ -102,6 +102,21 @@ The Front-end uses vite to run on a local server http://localhost:5173
      ![Alt text](https://github.com/kuljotSB/assets/blob/main/app_registration.png?raw=true)
 
 
+#### Running The Whole Backend Locally
+
+1) Navigate to the "backend/appsetting.json" file and fill in the required values appropriately.
+
+2) Open The `COPILOTFULLSTACKAPP` folder in command prompt and enter the following commands:
+
+    `cd backend`
+
+    `dotnet build` 
+
+    `dotnet run`
+
+The Backend will be up and running locally on http://localhost:5124
+
+
    
 
 
