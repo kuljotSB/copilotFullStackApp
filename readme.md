@@ -117,7 +117,22 @@ The Front-end uses vite to run on a local server http://localhost:5173
 The Backend will be up and running locally on http://localhost:5124
 
 
-   
+
+### Running Azure Function Locally
+
+1) Download The `Azure Functions Core Tools` from this link (https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows%2Cisolated-process%2Cnode-v4%2Cpython-v2%2Chttp-trigger%2Ccontainer-apps&pivots=programming-language-csharp) to locally test and run your Azure Function.
+
+2) navigate to `azureFunctions/StorageQueueFunction/local.settings.json` and fill in the value of `AzureWebJobsStorage` with the value of connection string of your storage account
+
+3) navigate to `azureFunctions/StorageQueueFunction/Data/Secrets.cs` and fill in the value of `storageConnectionString` and `cosmosDBConnectionString` with appropriate values.
+
+4) Open The `COPILOTFULLSTACKAPP` folder in command prompt and enter the following commands:
+
+    `cd azureFunctions`
+
+    `cd StorageQueueFunction`
+
+    `func start`
 
 
    `
