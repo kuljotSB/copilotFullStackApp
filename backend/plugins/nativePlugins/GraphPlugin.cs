@@ -82,7 +82,7 @@ public class GraphPlugin
         var topFiveItems = new List<dynamic>();
 
 // Iterate through the first five items and add them to the list
-        for (int i = 0; i < 5 && i < dataValue.Count; i++)
+        for (int i = 0; i < 2 && i < dataValue.Count; i++)
         {
             topFiveItems.Add(dataValue[i]);
         }
@@ -174,9 +174,9 @@ public class GraphPlugin
             ["input"] = userQuery
         };
 
-        string emailAddress = (await kernel.InvokeAsync(extractEmailPlugin, arguments)).ToString();
+        string emailAd = (await kernel.InvokeAsync(extractEmailPlugin, arguments)).ToString();
 
-        Console.WriteLine(emailAddress);
+        Console.WriteLine(emailAd);
 
         string draftMessageUrl = "https://graph.microsoft.com/v1.0/me/messages";
 
@@ -199,7 +199,7 @@ public class GraphPlugin
                     {
                         emailAddress = new
                         {
-                            address = $"{emailAddress}"
+                            address = emailAd
                         }
                     }
                 }
