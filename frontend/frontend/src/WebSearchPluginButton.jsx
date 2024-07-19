@@ -23,7 +23,7 @@ export default function WebSearchPluginButton({setchoice})
         {
             return(
                 <div>
-                    <button onClick={EnableWebSearch}>Enable Web Search</button>
+                    <button onClick={EnableWebSearch} className="webButton" >Enable Web Search</button>
                 </div>
             );
         }
@@ -31,7 +31,7 @@ export default function WebSearchPluginButton({setchoice})
     {
         return(
             <div>
-                <button onClick={DisableWebSearch}>Disable Web Search</button>
+                <button onClick={DisableWebSearch} className = "webButton" >Disable Web Search</button>
             </div>
         )
     }
