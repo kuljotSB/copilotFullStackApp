@@ -3,6 +3,6 @@ import "./SendButton.css";
 
 export default function SendButton({functionToCall}) {
     return(
-        <button onClick = {functionToCall} className = "button" >Send</button>
+        <button onClick = {functionToCall} className = "sendButton" >Send</button>
     );
 }
