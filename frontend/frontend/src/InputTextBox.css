@@ -18,6 +18,7 @@ input {
     
     position:absolute;
     background-color: rgb(45, 43, 43);
+    color: white;
     width: 50%; /* Adjust the width based on your button's width */
     padding: 10px;
     left:5%;
