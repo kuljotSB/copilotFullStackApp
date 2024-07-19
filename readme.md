@@ -1,5 +1,13 @@
 # Custom Copilot Full Stack App
 
+## Prerequisites 
+1) download `VSCode` from the following URL - https://code.visualstudio.com/download
+2) download `GIT` from the following URL - https://git-scm.com/downloads
+3) download `Node.js` from the following URL - https://nodejs.org/en
+5) download `.NET 8` from the following URL - https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+6) Install `Azure CLI` from the following URL - https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+7) Install `Azure Functions Core Tool` from the following URL - https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows%2Cisolated-process%2Cnode-v4%2Cpython-v2%2Chttp-trigger%2Ccontainer-apps&pivots=programming-language-csharp
+
 ## Grass Root Concept For This App
 ![Alt text](https://github.com/kuljotSB/assets/blob/main/copilot%20stack.png?raw=true)
 
