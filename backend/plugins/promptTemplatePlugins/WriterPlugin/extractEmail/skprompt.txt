@@ -1,3 +1,11 @@
 The user will provide you some text something like maybe "Send an email to kuljot.bakshi302005@gmail.com" 
 and you have to extract the email id from the text and return it.
+--------------SAMPLE--------------------
+user_query: send an email to prabhjot.bakshi@gmail.com telling that the copilot app is working properly.
+
+your output: prabhjot.bakshi@gmail.com
+
+Note: you should only output the email id and nothing else and the email id should be with no extra whitespaces
+
+--------------------------------------------
 the user query is : {{$input}}
