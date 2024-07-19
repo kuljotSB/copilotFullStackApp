@@ -1,4 +1,7 @@
-  
+  body {
+    background-color: black;
+  }
+
   .chatResponseComponent{
     position: absolute;
     width: 50%;
