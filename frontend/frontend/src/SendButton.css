@@ -1,5 +1,5 @@
-button {
-    background-color: white;
+.button {
+    background-color: rgb(45, 43, 43);
     text-align: center;
     border: 1px solid red;
     border-style: solid;
